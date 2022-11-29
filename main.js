@@ -1,4 +1,13 @@
 
+// Constant Variables 
+const operationButtons = document.querySelectorAll('.operation');
+const currentOperandAndTextElement = document.querySelector('.current-operand');
+const oldOperandAndTextElement = document.querySelector('.old-operand');
+const allClearButtons = document.querySelector('#all-clear');
+const deleteButtons = document.querySelector('#delete');
+const equalsButtons = document.querySelector('#equals');
+const numberButtons = document.querySelectorAll('.number');
+const calculator = new Calculator(oldOperandAndTextElement, currentOperandAndTextElement);
 
 
 
@@ -123,19 +132,8 @@ class Calculator {
 };
 
 
-// Constant Variables 
-const operationButtons = document.querySelectorAll('.operation');
-const currentOperandAndTextElement = document.querySelector('.current-operand');
-const oldOperandAndTextElement = document.querySelector('.old-operand');
-const allClearButtons = document.querySelector('#all-clear');
-const deleteButtons = document.querySelector('#delete');
-const equalsButtons = document.querySelector('#equals');
-const numberButtons = document.querySelectorAll('.number');
-
-
 
 // EVENTS
-const calculator = new Calculator(oldOperandAndTextElement, currentOperandAndTextElement);
 
 numberButtons.forEach(button => {
     button.addEventListener('click', (event) => {
