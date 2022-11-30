@@ -9,13 +9,24 @@
     <title>Calculator</title>
 </head>
 <body>
+
+    <!-- <script>
+        function play() {
+            let audio = document.querySelector("audio");
+            audio.play();
+        }
+    </script> -->
+   
     <div class="calculator-grid">
+
         <div class="display">
             <div id="old-operand" class="old-operand"></div>
             <div id="current-operand" class="current-operand"></div>
         </div>
 
-        <button id="all-clear" class="span-two">AC</button>
+        <!-- <audio id="audio" src="./mixkit-hard-typewriter-click-1119.wav"></audio> -->
+        <!-- value and onclick need to be removed if audio isnt working -->
+        <button value="PLAY" onclick="play()" id="all-clear" class="span-two">AC</button>
         <button id="delete">DEL</button>
         <button class="operation">÷</button>
         <button class="number">1</button>

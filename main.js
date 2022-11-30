@@ -83,7 +83,7 @@ class Calculator {
         this.operation = undefined;
         this.oldOperand = '';
     };
-    
+   
     // This is a helper function:
     // take our string, make it into a number, if it isn't a number dont do anything,
     // if it is, translate it to EN-US, which will add commas to numbers that require it due to length
