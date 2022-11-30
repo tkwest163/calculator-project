@@ -7,7 +7,6 @@ const allClearButtons = document.querySelector('#all-clear');
 const deleteButtons = document.querySelector('#delete');
 const equalsButtons = document.querySelector('#equals');
 const numberButtons = document.querySelectorAll('.number');
-const calculator = new Calculator(oldOperandAndTextElement, currentOperandAndTextElement);
 
 
 
@@ -131,7 +130,7 @@ class Calculator {
     };
 };
 
-
+const calculator = new Calculator(oldOperandAndTextElement, currentOperandAndTextElement);
 
 // EVENTS
 
