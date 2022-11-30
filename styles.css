@@ -35,7 +35,6 @@ body {
     align-content: center;
     position: relative;
     min-height: 100vh;
-    min-width: 300px;
     padding: 40px 30px 30px;
     background-color: rgba(3, 8, 3, 0.863);
     grid-template-columns: repeat(4, 100px);
